@@ -4,9 +4,218 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nike Shoes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/9a03863fc1.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" alt="Logo" width="291.11" height="39.27" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li> 
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div style="background-color: #FFF9F4;" class="container-fluid">
+            <div class="row d-flex align-items-center justify-content-between p-5"> <!--  parent Div -->
+                <div class="col-lg-6"> <!-- Child Div -->
+                    <img src="images/Group 33092.png" width="350px"alt="">
+
+                </div>
+
+                <div class="col-lg-6">
+                    <Span><h1 style="color: #FA804C;" class="fw-bold">NIKE REACT</h1></Span>
+                    <span><h1 style="color: #363958;" class="fw-bold">INFINITY RUN 2</h1></span>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda provident nulla inventore. Eaque, possimus repellendus.</P>
+
+                    <div class="text-start">
+                        <button id="btn-color"  class="btn" type="submit">
+                          <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                        </button>
+                      </div>
+
+                </div>
+
+            </div>
+        </div>
+
+       <div class="container my-5">
+        <h1 id="font-color" class="fw-bold">CASUAL SHOES</h1>
+        <!-- shoes 1 -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div style="background-color: #F1F1F1;" class="p-5 rounded">
+                        <img src="images/1.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Sneakers Skate Shoe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$299</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 2 -->
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div style="background-color: #F1F1F1;" class="p-5 rounded">
+                        <img src="images/2.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Nike Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$399</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 3 -->
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div style="background-color: #F1F1F1;" class="p-5 rounded">
+                        <img src="images/3.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Sneakers Basketball shoe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$499</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="container my-5">
+        <h1 id="font-color" class="fw-bold">FORMAL SHOES</h1>
+        <!-- shoes 4 -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div class="p-5 rounded">
+                        <img src="images/4.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Nike Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$299</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 5 -->
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div class="p-5 rounded">
+                        <img src="images/5.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Nike Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$299</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 6 -->
+            <div class="col-lg-4">
+                <div class="p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div class="p-5 rounded">
+                        <img src="images/6.png" width="236px" alt="shoes">
+                    </div>
+                    <h3>Nike Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quibusdam.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h1 id="price-color">$299</h1>
+                        <button id="btn-color"  class="btn" type="submit">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="container my-5" >
+
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="d-flex ">
+                    <img src="icons/image 12.png" width="78" height="82" alt="">
+                <div>
+                    <h3>Find the Perfect Fit</h3>
+                <p>Everybody is different, which is why we
+                    offer styles for every body.</p>
+                </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <img src="icons/image 13.png" width="78" height="82" alt="">
+                <div>
+                    <h3>Free Exchanges</h3>
+                <p>One of the many reasons you can shop
+                    with peace of mind.</p>
+                </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <img src="icons/image 13.png" width="78" height="82" alt="">
+                <div>
+                    <h3>Contact Our Seller</h3>
+                <p>They are here to help you. That's quite 
+                    literally what we pay them for.</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+            <img src="icons/XMLID 1.png"  width="599" height="354.07">
+            </div>
+        </div>
+       </div>
+
+    </main>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
